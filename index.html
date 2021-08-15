@@ -1,10 +1,80 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>wizi's google clone</title>
-  </head>
-  <body>
-    <p>This is my page</p>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Este es mi primer intento de crear una web desde cero">
+  <title>wizi's google clone</title>
+  <!-- Icono de google -->
+  <link rel="shortcut icon" href="https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+
+<body>
+
+  <!-- MENU SUPERIOR -->
+  <nav class="menu_superior">
+    <div class="cabecera head_izq">
+      Sobre Google
+    </div>
+    <div class="cabecera head_izq">
+      Tienda
+    </div>
+    <div class="cabecera head_der">
+      Gmail
+    </div>
+    <div class="cabecera head_der">
+      Imagenes
+    </div>
+    <div class="cabecera head_der">
+      <!-- Dibujo de los puntos -->
+      <!-- <svg  class="svg_image" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg> -->
+    </div>
+    <div id="cabecera Usuario">
+      <button class="boton_usuario" type="button">Sign In</button>
+    </div>
+  </nav>
+
+  <!-- LOGO -->
+  <div class="logo">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+      alt="Logotipo de Google">
+  </div>
+
+  <!-- BUSQUEDA -->
+  <div id="busqueda">
+
+    <!-- CUADRO DE BUSQUEDA -->
+    <div id="cuadro_busqueda">
+      <i class="material-icons">search</i>
+      <input type="text" name="busqueda">
+      <i class="material-icons">mic</i>
+    </div>
+
+    <!-- BOTONES BUSQUEDA -->
+    <div id="botones_busqueda">
+      <button class="boton" type="button">Buscar en Google</button>
+      <button class="boton" type="button">Voy a tener suerte</button>
+    </div>
+
+    <!-- OFRECIDO POR... -->
+    <div id="ofrecido">
+      Ofrecido por Google en:
+      <a
+        href="https://www.google.com/setprefs?sig=0_cwts-jU98pL8dBc5hZdTf0Sxg64%3D&amp;hl=en&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjnvc_puLLyAhWfD1kFHb3qALYQ2ZgBCBA">English</a>
+      <a
+        href="https://www.google.com/setprefs?sig=0_cwts-jU98pL8dBc5hZdTf0Sxg64%3D&amp;hl=es&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjnvc_puLLyAhWfD1kFHb3qALYQ2ZgBCBE">español</a>
+      <a
+        href="https://www.google.com/setprefs?sig=0_cwts-jU98pL8dBc5hZdTf0Sxg64%3D&amp;hl=ca&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjnvc_puLLyAhWfD1kFHb3qALYQ2ZgBCBI">català</a>
+      <a
+        href="https://www.google.com/setprefs?sig=0_cwts-jU98pL8dBc5hZdTf0Sxg64%3D&amp;hl=gl&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjnvc_puLLyAhWfD1kFHb3qALYQ2ZgBCBM">galego</a>
+      <a
+        href="https://www.google.com/setprefs?sig=0_cwts-jU98pL8dBc5hZdTf0Sxg64%3D&amp;hl=eu&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjnvc_puLLyAhWfD1kFHb3qALYQ2ZgBCBQ">euskara</a>
+    </div>
+
+  </div>
+
+</body>
+
 </html>
