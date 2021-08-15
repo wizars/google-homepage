@@ -1,16 +1,18 @@
 body{
     background-color: rebeccapurple;
+ 
     display: flex;
-flex-direction: column;
-    align-items: stretch;
-    justify-content: flex-start;
+    flex-direction: column;
+        background-color: chartreuse;
+        height: 450px;
+        min-height: 450px;
+        min-width: 550px;;
 }
 .menu_superior
 {
 display:flex;
 flex-wrap: nowrap;
 justify-content: space-between;
-flex-shrink: 0;
 align-items: stretch;
 background-color: rosybrown;
 }
@@ -22,12 +24,14 @@ background-color: rosybrown;
 .head_izq{
     display: flex;
     background-color: steelblue;
+    align-items: center;
+
 }
 .svg_image{
     background-color: violet;
     
-    height: 40px;
-    width: 40px;
+    height: 24px;
+    width: 24px;
     display: inline-block;
     padding: 0px;
 }
@@ -35,7 +39,7 @@ background-color: rosybrown;
     background-color: chartreuse;
     display: flex;
     align-items: flex-end;
-    width: auto;
+    /* width: auto; */
 }
 .boton_usuario{
     background-color: #1a73e8;
@@ -60,6 +64,8 @@ background-color: rosybrown;
     display: flex;
     background-color: tomato;
     justify-content: center;
+    padding: 50px;
+    
 }
 #busqueda{
     align-items: center;
@@ -69,11 +75,16 @@ background-color: rosybrown;
 
 }
 
+.cuadro_texto{
+    height: 34px;
+    font-size: 16px;
+    }
 #cuadro_busqueda{
     display: flex;
     background-color: yellow;
     align-items: center;
     justify-content: center;
+    
 }
 #botones_busqueda{
     display: flex;
