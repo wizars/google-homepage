@@ -13,76 +13,101 @@
 
 
 <body>
+    <div id="todo">
+        <!-- MENU SUPERIOR -->
+        <nav class="menu_superior">
 
-    <!-- MENU SUPERIOR -->
-    <nav class="menu_superior">
+            <!-- bloque izquierdo -->
+            <div class="cabecera">
+                <a class="enlace" href="https://about.google/?fg=1&amp;utm_source=google-&amp;utm_medium=referral&amp;utm_campaign=hp-header" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://about.google/%3Ffg%3D1%26utm_source%3Dgoogle-%26utm_medium%3Dreferral%26utm_campaign%3Dhp-header&amp;ved=0ahUKEwjxl5fk0rLyAhUmnOAKHU33D9kQkNQCCAI">Sobre Google</a>
+                <a class="enlace" href="https://store.google.com/?utm_source=hp_header&amp;utm_medium=google_ooo&amp;utm_campaign=GS100042&amp;hl=es-419-" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://store.google.com/%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Des-419-&amp;ved=0ahUKEwjxl5fk0rLyAhUmnOAKHU33D9kQpMwCCAM">Tienda</a>
+            </div>
 
-        <!-- bloque izquierdo -->
-        <div class="cabecera">
-            <a class="enlace" href="https://about.google/?fg=1&amp;utm_source=google-&amp;utm_medium=referral&amp;utm_campaign=hp-header" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://about.google/%3Ffg%3D1%26utm_source%3Dgoogle-%26utm_medium%3Dreferral%26utm_campaign%3Dhp-header&amp;ved=0ahUKEwjxl5fk0rLyAhUmnOAKHU33D9kQkNQCCAI">Sobre Google</a>
-            <a class="enlace" href="https://store.google.com/?utm_source=hp_header&amp;utm_medium=google_ooo&amp;utm_campaign=GS100042&amp;hl=es-419-" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://store.google.com/%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Des-419-&amp;ved=0ahUKEwjxl5fk0rLyAhUmnOAKHU33D9kQpMwCCAM">Tienda</a>
+            <!-- bloque derecho -->
+            <div class="cabecera">
+
+                <!-- enlaces -->
+                <a class="enlace" href="https://mail.google.com/mail/&amp;ogbl" target="_top">Gmail</a>
+                <a class="enlace" href="https://www.google.es/imghp?hl=es-419&amp;ogbl" target="_top">Imágenes</a>
+
+                <!-- Dibujo de los puntos -->
+                <div class="apps">
+                    <svg id="puntos" focusable="false" viewBox="0 0 24 24"><path  d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+                </div>
+
+                <!-- boton usuario -->
+                <button id="boton_usuario" type="button">Iniciar Sesión</button>
+            </div>
+
+        </nav>
+
+        <!-- LOGO -->
+        <div id="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Logotipo de Google">
         </div>
 
-        <!-- bloque derecho -->
-        <div class="cabecera">
+        <!-- BUSQUEDA -->
 
-            <!-- enlaces -->
-            <a class="enlace" href="https://mail.google.com/mail/&amp;ogbl" target="_top">Gmail</a>
-            <a class="enlace" href="https://www.google.es/imghp?hl=es-419&amp;ogbl" target="_top">Imágenes</a>
+        <!-- BUSQUEDA -->
 
-            <!-- Dibujo de los puntos -->
-            <div class="apps">
-                <svg id="puntos" focusable="false" viewBox="0 0 24 24"><path  d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+        <div id="busqueda2">
+
+            <div id="busqueda">
+
+                <!-- CUADRO DE BUSQUEDA -->
+                <div id="cuadro_busqueda">
+                    <i class="material-icons">search</i>
+                    <input class="cuadro_texto" type="text" name="busqueda">
+                    <i class="material-icons">mic</i>
+                </div>
+
+                <!-- BOTONES BUSQUEDA -->
+                <div id="botones_busqueda">
+                    <button class="boton" type="button">Buscar en Google</button>
+                    <button class="boton" type="button">Voy a tener suerte</button>
+                </div>
+
             </div>
 
-            <!-- boton usuario -->
-            <button id="boton_usuario" type="button">Iniciar Sesión</button>
         </div>
 
-    </nav>
-
-    <!-- LOGO -->
-    <div id="logo">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Logotipo de Google">
-    </div>
-
-    <!-- BUSQUEDA -->
-
-    <!-- BUSQUEDA -->
-
-    <div id="busqueda2">
-
-        <div id="busqueda">
-
-            <!-- CUADRO DE BUSQUEDA -->
-            <div id="cuadro_busqueda">
-                <i class="material-icons">search</i>
-                <input class="cuadro_texto" type="text" name="busqueda">
-                <i class="material-icons">mic</i>
-            </div>
-
-            <!-- BOTONES BUSQUEDA -->
-            <div id="botones_busqueda">
-                <button class="boton" type="button">Buscar en Google</button>
-                <button class="boton" type="button">Voy a tener suerte</button>
-            </div>
-
-            <!-- OFRECIDO POR... -->
-            <div id="ofrecido">
-                Ofrecido por Google en:
-                <a class="enlace_ofrecido" href="https://www.google.com/setprefs?sig=0_cwts-jU98pL8dBc5hZdTf0Sxg64%3D&amp;hl=en&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjnvc_puLLyAhWfD1kFHb3qALYQ2ZgBCBA">English</a>
-                <a class="enlace_ofrecido" href="https://www.google.com/setprefs?sig=0_cwts-jU98pL8dBc5hZdTf0Sxg64%3D&amp;hl=es&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjnvc_puLLyAhWfD1kFHb3qALYQ2ZgBCBE">español</a>
-                <a class="enlace_ofrecido" href="https://www.google.com/setprefs?sig=0_cwts-jU98pL8dBc5hZdTf0Sxg64%3D&amp;hl=ca&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjnvc_puLLyAhWfD1kFHb3qALYQ2ZgBCBI">català</a>
-                <a class="enlace_ofrecido" href="https://www.google.com/setprefs?sig=0_cwts-jU98pL8dBc5hZdTf0Sxg64%3D&amp;hl=gl&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjnvc_puLLyAhWfD1kFHb3qALYQ2ZgBCBM">galego</a>
-                <a class="enlace_ofrecido" href="https://www.google.com/setprefs?sig=0_cwts-jU98pL8dBc5hZdTf0Sxg64%3D&amp;hl=eu&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjnvc_puLLyAhWfD1kFHb3qALYQ2ZgBCBQ">euskara</a>
-            </div>
+        <!-- OFRECIDO POR... -->
+        <div id="ofrecido">
+            Ofrecido por Google en:
+            <a class="enlace_ofrecido" href="https://www.google.com/setprefs?sig=0_cwts-jU98pL8dBc5hZdTf0Sxg64%3D&amp;hl=en&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjnvc_puLLyAhWfD1kFHb3qALYQ2ZgBCBA">English</a>
+            <a class="enlace_ofrecido" href="https://www.google.com/setprefs?sig=0_cwts-jU98pL8dBc5hZdTf0Sxg64%3D&amp;hl=es&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjnvc_puLLyAhWfD1kFHb3qALYQ2ZgBCBE">español</a>
+            <a class="enlace_ofrecido" href="https://www.google.com/setprefs?sig=0_cwts-jU98pL8dBc5hZdTf0Sxg64%3D&amp;hl=ca&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjnvc_puLLyAhWfD1kFHb3qALYQ2ZgBCBI">català</a>
+            <a class="enlace_ofrecido" href="https://www.google.com/setprefs?sig=0_cwts-jU98pL8dBc5hZdTf0Sxg64%3D&amp;hl=gl&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjnvc_puLLyAhWfD1kFHb3qALYQ2ZgBCBM">galego</a>
+            <a class="enlace_ofrecido" href="https://www.google.com/setprefs?sig=0_cwts-jU98pL8dBc5hZdTf0Sxg64%3D&amp;hl=eu&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjnvc_puLLyAhWfD1kFHb3qALYQ2ZgBCBQ">euskara</a>
         </div>
 
-    </div>
+
+
+        <footer>
+            <div id="pais" class="pie">
+                España
+            </div>
+            <div id="bloque_pie">
+                <div id="pie_izq" class="pie">
+                    <a class="enlace_pie" href="https://www.google.com/intl/es-419_es/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://www.google.com/intl/es-419_es/ads/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&amp;ved=0ahUKEwiKg56L9L7yAhXRasAKHUbzBMgQkdQCCBU">Publicidad</a>
+                    <a class="enlace_pie" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://www.google.com/services/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&amp;ved=0ahUKEwiKg56L9L7yAhXRasAKHUbzBMgQktQCCBY">Negocios</a>
+                    <a class="enlace_pie" href="https://google.com/search/howsearchworks/?fg=1">  Cómo funciona la Búsqueda </a>
+                </div>
+                <div id="pie_centro" class="pie">
+                    <a class="enlace_pie" href="https://sustainability.google/intl/es/commitments-europe/?utm_source=googlehpfooter&amp;utm_medium=housepromos&amp;utm_campaign=bottom-footer&amp;utm_content=" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://sustainability.google/intl/es/commitments-europe/%3Futm_source%3Dgooglehpfooter%26utm_medium%3Dhousepromos%26utm_campaign%3Dbottom-footer%26utm_content%3D&amp;ved=0ahUKEwiKg56L9L7yAhXRasAKHUbzBMgQiM8HCBc">
+                        <img id="hoja" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC"
+                            alt="" data-atf="1" data-frt="0">
+                        <span class="ktLKi">Con emisión neutra de carbono desde&nbsp;2007</span></a>
+                </div>
+                <div id="pie_der" class="pie">
+
+                    <a class="enlace_pie" href="https://policies.google.com/privacy?hl=es-419&amp;fg=1" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://policies.google.com/privacy%3Fhl%3Des-419%26fg%3D1&amp;ved=0ahUKEwiKg56L9L7yAhXRasAKHUbzBMgQ8awCCBg">Privacidad</a>
+                    <a class="enlace_pie" href="https://policies.google.com/terms?hl=es-419&amp;fg=1" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://policies.google.com/terms%3Fhl%3Des-419%26fg%3D1&amp;ved=0ahUKEwiKg56L9L7yAhXRasAKHUbzBMgQ8qwCCBk">Condiciones</a>
+                    <a class="enlace_pie" href="https://policies.google.com/terms?hl=es-419&amp;fg=1" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://policies.google.com/terms%3Fhl%3Des-419%26fg%3D1&amp;ved=0ahUKEwiKg56L9L7yAhXRasAKHUbzBMgQ8qwCCBk">Preferencias</a>
+                </div>
+        </footer>
+        </div>
 
 </body>
-<footer>
-
-</footer>
 
 </html>

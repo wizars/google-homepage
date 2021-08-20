@@ -1,206 +1,312 @@
-body {
-    display: flex;
-    flex-direction: column;
-    height: 450px;
-    min-height: 450px;
-    min-width: 500px;
-    align-content: space-between;
-}
-
-
-/* MENU SUPERIOR */
-
-.menu_superior {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-
-.cabecera {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-}
-
-.enlace {
-    color: rgba(0, 0, 0, 0.87);
-    text-decoration-line: none;
-    padding: 5px;
-    font-family: Arial, sans-serif;
-    line-height: 24px;
-}
-
-.enlace:hover {
-    text-decoration-line: underline;
-}
-
-.apps {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
-    border-width: 0px;
-    width: 40px;
-    height: 40px;
-}
-
-.apps:hover {
-    background-color: rgba(60, 64, 67, 0.08);
-    border-radius: 50%;
-}
-
-#puntos {
-    background-color: transparent;
-    color: #5f6368;
-    fill: currentColor;
-    opacity: 1;
-    height: 24px;
-    width: 24px;
-}
-
-#boton_usuario {
-    border: 1px solid transparent;
-    font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    margin-left: 10px;
-    margin-right: 8px;
-    min-width: 96px;
-    padding: 9px 23px;
-    text-align: center;
-    vertical-align: middle;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    color: white;
-    background-color: #1a73e8;
-}
-
-#boton_usuario:hover {
-    background: #2b7de9;
-    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
-}
-
-#logo {
-    display: block;
-    margin: 0 auto;
-    padding: 50px;
-}
-
-#busqueda2 {
-    padding: 10px 30px 0px 30px;
-}
-
-#busqueda {
-    display: flex;
-    display: flex;
-    flex-flow: column nowrap;
-    margin: 0 auto;
-    max-width: 580px;
-}
-
-#cuadro_busqueda {
-    display: flex;
-    flex: 1;
-    border-radius: 22px;
-    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
-}
-
-.cuadro_texto:active {
-    border-width: 100px;
-}
-
-.cuadro_texto {
-    display: flex;
-    flex: 1;
-    font-size: 16px;
-    width: 800;
-    max-width: 800px;
-    height: 34px;
-    padding: 5px;
-    border-style: hidden;
-}
-
-i {
-    display: flex;
-    margin: 5px;
-    padding: 5px;
-    width: 24px;
-    flex: 0;
-}
-
-#botones_busqueda {
-    display: flex;
-    /* background-color:dodgerblue; */
-    justify-content: center;
-}
-
-#ofrecido {
-    /* background-color: hotpink; */
-    color: #3c4043;
-    line-height: 28px;
-    font-size: small;
-    font-family: arial, sans-serif;
-    text-align: center;
-}
-
-.boton {
-    /* background-color: #f8f9fa; */
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    color: #3c4043;
-    font-family: arial, sans-serif;
-    font-size: 14px;
-    margin: 11px 4px;
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.boton:hover {
-    box-shadow: 0 10px 1px rgb(0 0 0 / 10%);
-    background-color: #f8f9fa;
-    border: 1px solid #dadce0;
-    color: #202124;
-}
-
-.enlace_ofrecido {
-    text-decoration-line: none;
-}
-
-.enlace_ofrecido:hover {
-    text-decoration-line: underline;
-}
-
-
-/* COLORES DE FONDO!!!!!!! */
-
-#busqueda {
-    background-color: rgb(49, 192, 13);
-}
-
-#busqueda2 {
-    background-color: thistle;
-}
-
-#cuadro_busqueda {
-    background-color: rgb(226, 15, 15);
-}
-
-.cabecera {
-    background-color: rgb(255, 255, 255);
-}
-
-.menu_superior {
-    background-color: rosybrown;
-}
-
-body {
-    background-color: chartreuse;
-}
+                                            html {
+                                                display: block;
+                                                height: 100%;
+                                            }
+                                            
+                                            body {
+                                                display: block;
+                                                height: 100%;
+                                                min-width: 500px;
+                                                min-height: 400px;
+                                                margin: 0px;
+                                                padding: 0px;
+                                            }
+                                            
+                                            #todo {
+                                                display: flex;
+                                                flex-direction: column;
+                                                height: 100%;
+                                            }
+                                            /* MENU SUPERIOR */
+                                            
+                                            .menu_superior {
+                                                display: flex;
+                                                flex-wrap: nowrap;
+                                                justify-content: space-between;
+                                            }
+                                            
+                                            .cabecera {
+                                                display: flex;
+                                                align-items: center;
+                                                font-size: 14px;
+                                            }
+                                            
+                                            .enlace {
+                                                color: rgba(0, 0, 0, 0.87);
+                                                text-decoration-line: none;
+                                                padding: 5px;
+                                                font-family: Arial, sans-serif;
+                                                line-height: 24px;
+                                            }
+                                            
+                                            .enlace:hover {
+                                                text-decoration-line: underline;
+                                            }
+                                            
+                                            .apps {
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                padding: 0px;
+                                                margin: 0px;
+                                                border-width: 0px;
+                                                width: 40px;
+                                                height: 40px;
+                                            }
+                                            
+                                            .apps:hover {
+                                                background-color: rgba(60, 64, 67, 0.08);
+                                                border-radius: 50%;
+                                            }
+                                            
+                                            #puntos {
+                                                background-color: transparent;
+                                                color: #5f6368;
+                                                fill: currentColor;
+                                                opacity: 1;
+                                                height: 24px;
+                                                width: 24px;
+                                            }
+                                            
+                                            #boton_usuario {
+                                                border: 1px solid transparent;
+                                                font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+                                                font-weight: 500;
+                                                font-size: 14px;
+                                                line-height: 16px;
+                                                margin-left: 10px;
+                                                margin-right: 8px;
+                                                min-width: 96px;
+                                                padding: 9px 23px;
+                                                text-align: center;
+                                                vertical-align: middle;
+                                                -webkit-border-radius: 4px;
+                                                border-radius: 4px;
+                                                -webkit-box-sizing: border-box;
+                                                box-sizing: border-box;
+                                                color: white;
+                                                background-color: #1a73e8;
+                                            }
+                                            
+                                            #boton_usuario:hover {
+                                                background: #2b7de9;
+                                                box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
+                                            }
+                                            
+                                            #logo {
+                                                display: flex;
+                                                flex-shrink: 0;
+                                                margin: 0 auto;
+                                                box-sizing: border-box;
+                                                padding-top: 60px;
+                                                max-height: 290px;
+                                                margin-top: auto;
+                                                width: auto;
+                                            }
+                                            
+                                            #busqueda2 {
+                                                padding: 10px 30px 0px 30px;
+                                            }
+                                            
+                                            #busqueda {
+                                                display: flex;
+                                                display: flex;
+                                                flex-flow: column nowrap;
+                                                margin: 0 auto;
+                                                max-width: 580px;
+                                            }
+                                            
+                                            #cuadro_busqueda {
+                                                display: flex;
+                                                flex: 1;
+                                                border-radius: 22px;
+                                                box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+                                            }
+                                            
+                                            .cuadro_texto:active {
+                                                border-width: 100px;
+                                            }
+                                            
+                                            .cuadro_texto {
+                                                display: flex;
+                                                flex: 1;
+                                                font-size: 16px;
+                                                width: 800;
+                                                max-width: 800px;
+                                                height: 34px;
+                                                padding: 5px;
+                                                border-style: hidden;
+                                            }
+                                            
+                                            i {
+                                                display: flex;
+                                                margin: 5px;
+                                                padding: 5px;
+                                                width: 24px;
+                                                flex: 0;
+                                            }
+                                            
+                                            #botones_busqueda {
+                                                display: flex;
+                                                /* background-color:dodgerblue; */
+                                                justify-content: center;
+                                            }
+                                            
+                                            #ofrecido {
+                                                display: block;
+                                                flex-grow: 1;
+                                                flex-shrink: 0;
+                                                box-sizing: border-box;
+                                                color: #3c4043;
+                                                line-height: 28px;
+                                                font-size: small;
+                                                font-family: arial, sans-serif;
+                                                text-align: center;
+                                            }
+                                            
+                                            .boton {
+                                                border: 1px solid #f8f9fa;
+                                                border-radius: 4px;
+                                                color: #3c4043;
+                                                font-family: arial, sans-serif;
+                                                font-size: 14px;
+                                                margin: 11px 4px;
+                                                padding: 0 16px;
+                                                line-height: 27px;
+                                                height: 36px;
+                                                min-width: 54px;
+                                                text-align: center;
+                                                cursor: pointer;
+                                            }
+                                            
+                                            .boton:hover {
+                                                box-shadow: 0 10px 1px rgb(0 0 0 / 10%);
+                                                background-color: #f8f9fa;
+                                                border: 1px solid #dadce0;
+                                                color: #202124;
+                                            }
+                                            
+                                            .enlace_ofrecido {
+                                                text-decoration-line: none;
+                                            }
+                                            
+                                            .enlace_ofrecido:hover {
+                                                text-decoration-line: underline;
+                                            }
+                                            
+                                            #pais {
+                                                background: #f2f2f2;
+                                                display: block;
+                                                justify-self: end;
+                                                padding: 15px 30px;
+                                                border-bottom: 1px solid #dadce0;
+                                                font-size: 15px;
+                                                font-family: arial, sans-serif;
+                                                color: rgba(0, 0, 0, .54);
+                                            }
+                                            
+                                            .pie {
+                                                display: flex;
+                                                font-size: 14px;
+                                                font-family: arial, sans-serif;
+                                                flex-wrap: wrap;
+                                            }
+                                            
+                                            #bloque_pie {
+                                                background: #f2f2f2;
+                                                display: flex;
+                                                justify-content: space-evenly;
+                                                flex-wrap: wrap;
+                                                padding: 0 20px;
+                                            }
+                                            
+                                            .enlace_pie {
+                                                color: #70757a;
+                                                text-decoration-line: none;
+                                                margin: 10px;
+                                            }
+                                            
+                                            .enlace_pie:hover {
+                                                text-decoration-line: underline;
+                                            }
+                                            
+                                            #pie_izq {
+                                                order: 1;
+                                                display: flex;
+                                                flex-wrap: wrap;
+                                                justify-content: flex-start;
+                                                align-content: center;
+                                                min-width: 30%;
+                                            }
+                                            
+                                            @media only screen and (max-width: 1250px) {
+                                                #pie_centro {
+                                                    order: 0;
+                                                    width: 100%;
+                                                    justify-content: center;
+                                                }
+                                            }
+                                            
+                                            #hoja {
+                                                height: 14px;
+                                                margin-right: 6px;
+                                                ;
+                                            }
+                                            
+                                            #pie_centro {
+                                                order: 1;
+                                                display: flex;
+                                                justify-content: space-evenly;
+                                                /* width: 100%; */
+                                                flex-wrap: wrap;
+                                            }
+                                            
+                                            #pie_der {
+                                                order: 3;
+                                                display: flex;
+                                                flex-wrap: wrap;
+                                                justify-content: flex-start;
+                                                align-content: center;
+                                                min-width: 30%;
+                                            }
+                                            /* COLORES DE FONDO!!!!!!! */
+                                            
+                                            #busqueda {
+                                                background-color: rgb(49, 192, 13);
+                                            }
+                                            
+                                            #busqueda2 {
+                                                background-color: thistle;
+                                            }
+                                            
+                                            #cuadro_busqueda {
+                                                background-color: rgb(226, 15, 15);
+                                            }
+                                            
+                                            .cabecera {
+                                                background-color: rgb(255, 255, 255);
+                                            }
+                                            
+                                            .menu_superior {
+                                                background-color: rosybrown;
+                                            }
+                                            
+                                            body {
+                                                /* background-color: chartreuse; */
+                                            }
+                                            
+                                            #ofrecido {
+                                                background-color: hotpink;
+                                            }
+                                            
+                                            #pie_izq {
+                                                background-color: chartreuse;
+                                            }
+                                            
+                                            #pie_der {
+                                                background-color: chocolate;
+                                            }
+                                            
+                                            #pie_centro {
+                                                background-color: cornflowerblue;
+                                            }
